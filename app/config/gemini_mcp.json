@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "Gemini Agent": {
+      "enabled": true,
+      "command": "E:\\Courses\\MCP_Agents\\.venv\\Scripts\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "E:\\Courses\\MCP_Agents\\app\\mcp_servers\\gemini_mcp_servers.py"
+      ]
+    }
+  }
+}
